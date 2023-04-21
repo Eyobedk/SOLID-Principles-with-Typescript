@@ -9,7 +9,7 @@ interface UserData {
     // ... other user datas
 }
 
-class User {
+class Users {
     constructor(private db: Database) {}
   
     public getUser(userId: string): UserData {
