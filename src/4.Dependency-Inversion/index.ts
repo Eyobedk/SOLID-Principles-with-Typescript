@@ -1,4 +1,4 @@
-import User from "../entity/user";
+import User from "./entity/user";
 
 interface UserRepository {
     saveUser(user: User): Promise<void>;
